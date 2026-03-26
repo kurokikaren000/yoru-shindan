@@ -477,7 +477,7 @@ function showResult(){
   const mx=Math.max(...sc);
   const r=RS[sc.indexOf(mx)];
   const NOTE_URL='https://kurokikaren000.github.io/yoru-shindan';
-  const shareText=`🌙 夜の動物診断\n\n私は「${r.ja}」でした\n\n${r.tl}\n\nあなたは何タイプ？↓\n${NOTE_URL}`;
+  const shareText=`🌙 #夜の動物診断\n\n私は「${r.ja}」でした\n\n${r.tl}\n\nあなたは何タイプ？↓\n${NOTE_URL}`;
   const enc=encodeURIComponent(shareText);
   render(`
     <div class="r-animal">${r.em}</div>
